@@ -1,0 +1,64 @@
+body {
+    height: 250px;
+    width: 300px;
+    background-color: rgb(184, 168, 118);
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    position: fixed;
+}
+
+main {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(6, 6, 112, 0.863);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+}
+
+main {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 45px;
+}
+
+.hello {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.intro {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 30px;
+    color: red; 
+    font-family: cursive;
+    font-style: italic;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
