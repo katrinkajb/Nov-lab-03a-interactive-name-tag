@@ -1,10 +1,12 @@
-const mybutton = document.getElementById (id="my-button")
-const myinput = document.getElementById (id="my-input")
+const myButton = document.getElementById (id="my-button")
+const nameinput = document.getElementById (id="name-input")
 const namefield = document.getElementById (id="name-field")
+const pronouninput = document.getElementById (id="pronoun-input")
 
-mybutton.addEventListener('click', () => {
-    namefield.textContent = myinput.value
-    myinput.value = ''
+
+myButton.addEventListener('click', () => {
+    namefield.textContent = nameinput.value + " " + pronouninput.value;
+    nameinput.value = ''
 });
 
 const pinkbutton = document.getElementById (id="pink-button")
